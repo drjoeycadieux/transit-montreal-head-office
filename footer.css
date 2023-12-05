@@ -12,11 +12,16 @@
 
 .wrapper {
   display: inline;
+  text-align: center;
 }
 
 .links {
   display: flex;
   justify-content: center;
+}
+
+.links p {
+  text-decoration: underline;
 }
 
 .links ul {

@@ -1,3 +1,63 @@
-h1 {
-  text-decoration: underline;
+body {
+  padding: 0;
+  margin: 0;
+}
+.navbar-main {
+  padding: 15px;
+  background-color: rgb(27, 77, 107);
+}
+
+.navbar-main ul {
+  display: block;
+}
+
+.navbar-main ul li {
+  display: inline;
+  margin: 5px;
+}
+
+.navbar-main ul li a {
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 21px;
+  text-decoration: none;
+}
+
+.navbar-main ul li a:hover {
+  color: lightgray;
+}
+
+.navbar-main p {
+  display: inline;
+  color: white;
+  font-family: sans-serif;
+  font-size: 26px;
+}
+
+.header {
+  padding: 125px;
+  background-color: rgb(51, 110, 147);
+}
+
+.header a {
+  color: lightslategray;
+  font-family: sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+  border: black 1px solid;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.header a:hover {
+  color: lightgray;
+}
+
+.header p {
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 26px;
 }

@@ -75,6 +75,30 @@ body {
   color: black;
 }
 
+.under {
+  padding: 5px;
+}
+
+.under ul {
+  display: block;
+}
+
+.under ul li {
+  margin: 5px;
+  display: inline;
+}
+
+.under ul li a {
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.under ul li a:hover {
+  color: lightgray;
+}
+
 @media (min-height: 680px), screen and (orientation: portrait) {
   .navbar-main {
     width: auto;

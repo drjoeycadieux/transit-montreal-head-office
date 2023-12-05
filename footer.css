@@ -1,0 +1,52 @@
+.footer {
+  padding: 15px;
+  background-color: rgb(27, 77, 107);
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 22px;
+}
+
+.wrapper {
+  display: inline;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links ul {
+  display: block;
+  list-style: none;
+}
+
+.links ul li {
+  margin: 5px;
+}
+
+.links ul li a {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.links a:hover {
+  color: lightslategray;
+}
+
+@media (min-height: 680px), screen and (orientation: portrait) {
+  .footer {
+    width: auto;
+    height: auto;
+  }
+  .links {
+    width: auto;
+    height: auto;
+  }
+}

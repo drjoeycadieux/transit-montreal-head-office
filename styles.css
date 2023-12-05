@@ -38,6 +38,7 @@ body {
 .header {
   padding: 125px;
   background-color: rgb(51, 110, 147);
+  text-align: center;
 }
 
 .header a {
@@ -45,7 +46,6 @@ body {
   font-family: sans-serif;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-decoration: none;
-  border: black 1px solid;
   padding: 10px;
   border-radius: 6px;
 }
@@ -84,6 +84,16 @@ body {
     width: auto;
   }
   .container {
+    width: auto;
+    height: auto;
+  }
+  .header {
+    width: auto;
+  }
+}
+
+@media (min-height: 680px), screen and (orientation: portrait) {
+  body {
     width: auto;
     height: auto;
   }

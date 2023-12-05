@@ -75,12 +75,6 @@ body {
   font-size: 21px;
 }
 
-@media screen and (min-width: 80rem) {
-  .container {
-    margin: 1em 2em;
-  }
-}
-
 @media (min-height: 680px), screen and (orientation: portrait) {
   .navbar-main {
     width: auto;

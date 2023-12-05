@@ -56,10 +56,10 @@ body {
 
 .header p {
   text-align: center;
-  color: black;
+  color: white;
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 30px;
 }
 
 .container {
@@ -71,7 +71,8 @@ body {
   font-family: sans-serif;
   font-weight: bold;
   text-align: center;
-  font-size: 21px;
+  font-size: 22px;
+  color: black;
 }
 
 @media (min-height: 680px), screen and (orientation: portrait) {

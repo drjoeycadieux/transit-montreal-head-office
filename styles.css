@@ -61,3 +61,30 @@ body {
   font-weight: bold;
   font-size: 26px;
 }
+
+.container {
+  padding: 125px;
+  /* width: auto; */
+  width: 600px;
+  margin: auto;
+}
+
+.container p {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (min-height: 680px), screen and (orientation: portrait) {
+  .navbar-main {
+    width: auto;
+    height: auto;
+  }
+  .navbar-main ul li a {
+    width: auto;
+  }
+  .container {
+    width: auto;
+    height: auto;
+  }
+}

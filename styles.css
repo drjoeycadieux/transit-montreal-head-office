@@ -90,6 +90,10 @@ body {
   .header {
     width: auto;
   }
+
+  .header p {
+    width: auto;
+  }
 }
 
 @media (min-height: 680px), screen and (orientation: portrait) {

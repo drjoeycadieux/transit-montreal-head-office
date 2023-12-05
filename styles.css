@@ -78,11 +78,13 @@ body {
 @media (min-height: 680px), screen and (orientation: portrait) {
   .navbar-main {
     width: auto;
+    height: auto;
   }
   .navbar-main ul li a {
-    max-width: min-content;
+    width: auto;
   }
   .container {
     width: auto;
+    height: auto;
   }
 }

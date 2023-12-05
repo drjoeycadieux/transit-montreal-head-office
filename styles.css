@@ -73,6 +73,7 @@ body {
   font-family: sans-serif;
   font-weight: bold;
   text-align: center;
+  font-size: 5vw;
 }
 
 @media (min-height: 680px), screen and (orientation: portrait) {
@@ -94,9 +95,6 @@ body {
   .header p {
     width: auto;
   }
-}
-
-@media (min-height: 680px), screen and (orientation: portrait) {
   body {
     width: auto;
     height: auto;

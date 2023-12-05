@@ -1,0 +1,24 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+.alert-info {
+  padding: 5px;
+  border: 1px solid orange;
+  background-color: rgba(255, 255, 0, 0.84);
+}
+
+.alert-info p {
+  text-align: center;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 400;
+}
+
+@media (min-height: 680px), screen and (orientation: portrait) {
+  .alert-info {
+    width: auto;
+  }
+
+  .alert-info p {
+    width: auto;
+  }
+}

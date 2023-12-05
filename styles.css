@@ -87,16 +87,6 @@ body {
 }
 
 @media (min-height: 680px), screen and (orientation: portrait) {
-  .navbar-main {
-    width: auto;
-    height: auto;
-  }
-  .navbar-main ul li a {
-    width: auto;
-  }
-}
-
-@media (min-height: 680px), screen and (orientation: portrait) {
   .container {
     width: auto;
     height: auto;
